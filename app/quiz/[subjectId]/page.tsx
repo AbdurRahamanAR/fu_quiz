@@ -76,7 +76,7 @@ export default function Quiz({params}: {
     <div className='w-full max-w-xl'>
       <Card className='mb-2 w-full'>
         <div className='flex mb-3 items-center'>
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 className="text-lg md:text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             <p>
               {currentSubjectDetails.subject}
             </p>
