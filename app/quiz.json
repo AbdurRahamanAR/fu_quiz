@@ -1,0 +1,232 @@
+[
+  {
+    "id": "1",
+    "subject": "Data Structures/Algorithms",
+    "description": "This is a course about data structures",
+    "quizzes": [
+      {
+        "id": "1",
+        "question": "What is the time complexity of a binary search?",
+        "answers": [
+          {
+            "answer": "O(n)",
+            "correct": false
+          },
+          {
+            "answer": "O(log n)",
+            "correct": true
+          },
+          {
+            "answer": "O(n log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(1)",
+            "correct": false
+          }
+        ],
+        "explanation": "Binary search is O(log n) because it divides the search space in half each time.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "2",
+        "question": "What is the time complexity of a linear search?",
+        "answers": [
+          {
+            "answer": "O(n)",
+            "correct": true
+          },
+          {
+            "answer": "O(log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(n log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(1)",
+            "correct": false
+          }
+        ],
+        "explanation": "Linear search is O(n) because it has to look at each element in the list.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "3",
+        "question": "What is the time complexity of a bubble sort?",
+        "answers": [
+          {
+            "answer": "O(n)",
+            "correct": false
+          },
+          {
+            "answer": "O(log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(n log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(n^2)",
+            "correct": true
+          }
+        ],
+        "explanation": "Bubble sort is O(n^2) because it has to compare each element to every other element.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "4",
+        "question": "What is the time complexity of a merge sort?",
+        "answers": [
+          {
+            "answer": "O(n)",
+            "correct": false
+          },
+          {
+            "answer": "O(log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(n log n)",
+            "correct": true
+          },
+          {
+            "answer": "O(n^2)",
+            "correct": false
+          }
+        ],
+        "explanation": "Merge sort is O(n log n) because it divides the list in half each time.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "5",
+        "question": "What is the time complexity of a quick sort?",
+        "answers": [
+          {
+            "answer": "O(n)",
+            "correct": false
+          },
+          {
+            "answer": "O(log n)",
+            "correct": false
+          },
+          {
+            "answer": "O(n log n)",
+            "correct": true
+          },
+          {
+            "answer": "O(n^2)",
+            "correct": false
+          }
+        ],
+        "explanation": "Quick sort is O(n log n) because it divides the list in half each time.",
+        "type": "multiple-choice"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "subject": "Number Theory",
+    "description": "This is a course about number theory",
+    "quizzes": [
+      {
+        "id": "1",
+        "question": "What is the sum of the first 100 positive integers?",
+        "answers": [
+          {
+            "answer": "5050",
+            "correct": true
+          },
+          {
+            "answer": "10000",
+            "correct": false
+          },
+          {
+            "answer": "100",
+            "correct": false
+          },
+          {
+            "answer": "1000",
+            "correct": false
+          }
+        ],
+        "explanation": "The sum of the first n positive integers is n(n+1)/2. 100(101)/2 = 5050.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "2",
+        "question": "What is the sum of the first 100 odd positive integers?",
+        "answers": [
+          {
+            "answer": "5050",
+            "correct": false
+          },
+          {
+            "answer": "10000",
+            "correct": false
+          },
+          {
+            "answer": "100",
+            "correct": false
+          },
+          {
+            "answer": "1000",
+            "correct": true
+          }
+        ],
+        "explanation": "The sum of the first n odd positive integers is n^2. 100^2 = 10000.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "3",
+        "question": "What is the sum of the first 100 even positive integers?",
+        "answers": [
+          {
+            "answer": "5050",
+            "correct": false
+          },
+          {
+            "answer": "10000",
+            "correct": true
+          },
+          {
+            "answer": "100",
+            "correct": false
+          },
+          {
+            "answer": "1000",
+            "correct": false
+          }
+        ],
+        "explanation": "The sum of the first n even positive integers is n(n+1). 100(101) = 10000.",
+        "type": "multiple-choice"
+      },
+      {
+        "id": "4",
+        "question": "What is the sum of the first 100 squares?",
+        "answers": [
+          {
+            "answer": "5050",
+            "correct": false
+          },
+          {
+            "answer": "10000",
+            "correct": false
+          },
+          {
+            "answer": "100",
+            "correct": false
+          },
+          {
+            "answer": "1000",
+            "correct": true
+          }
+        ],
+        "explanation": "The sum of the first n squares is n(n+1)(2n+1)/6. 100(101)(201)/6 = 1000100/6 = 1000.",
+        "type": "multiple-choice"
+      }
+    ]
+  }
+]
